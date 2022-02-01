@@ -1,0 +1,48 @@
+.meow{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: grey;
+  transition: all 2s;
+}
+.red{
+  background: red;
+}
+.green{
+  background: green;
+}
+.black{
+  background: black;
+}
+.button{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+}
+.button1{
+  position: absolute;
+  left: 75px;
+  top: 75px;
+  width: 150px;
+  height: 150px;
+  background: #1D1D1D;
+}
+.button:hover{
+  background: #C20000;
+}
+.screen{
+  position: absolute;
+  right: 90px;
+  top: 75px;
+  width: 800px;
+  height: 460px;
+  background: #1D1D1D;
+  transition: all 5s;
+}
+.meme{
+  background-image: url("../img/kanevsky.jpeg");
+}
