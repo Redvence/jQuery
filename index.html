@@ -13,7 +13,15 @@
 // });
 $(document).ready(function(){
   $(".button").click(function(){
-    $(".screen").toggleClass("hidden")
+    $(".screen").toggleClass("meme");
+    if ($(".screen").hasClass("whiteblack")){
+    $(".screen").toggleClass("whiteblack");
+    }
+  });
+  $(".buttonn").click(function(){
+    if ($(".screen").hasClass("meme")){
+    $(".screen").toggleClass("whiteblack");
+    }
   });
 });
     </script>
@@ -22,9 +30,11 @@ $(document).ready(function(){
     <!-- <div class="meow red"></div>
     <div class="meow green"></div>
     <div class="meow "></div> -->
-    <div class="button1"></div>
+    <div class="button1"> <p>КАНЕВСКИЙ</p> </div>
     <div class="button"></div>
+    <div class="button2"> <p>ЧЕРНО-БЕЛЫЙ</p> </div>
+    <div class="buttonn"></div>
     <div class="screen1"></div>
-    <div class="screen meme hidden"></div>
+    <div class="screen"></div>
   </body>
 </html>
