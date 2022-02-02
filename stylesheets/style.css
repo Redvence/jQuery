@@ -3,7 +3,6 @@ p{
   color: white;
   text-align: center;
   font-size: 10pt;
-  top: 50px;
 }
 .meow{
   display: inline-block;
@@ -82,4 +81,7 @@ p{
 }
 .buttonn:hover{
   background-color: #0B1CB4;
+}
+.happy{
+  
 }
